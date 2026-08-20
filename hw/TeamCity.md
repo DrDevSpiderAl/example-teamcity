@@ -29,3 +29,12 @@
 ![](<12.png>)
 12. 13. Запушил все изменения и провел сборку, она прошла на clean test
 ![](<13.png>)
+14. Объединил через marge две ветки
+git checkout master
+git pull origin master
+git merge feature/add_reply
+git push origin master
+15. Убедился, что нет собранного артефакта в сборке по ветке master.
+![](<14.png>)
+16. Добавил в конфигурацию значение target/*.jar  в Artifact paths: и поменял версию на 0.0.3
+17.
